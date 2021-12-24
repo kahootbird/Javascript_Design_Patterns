@@ -1,0 +1,17 @@
+let counter = 0
+
+const exampleModule = {
+	incrementCounter(){
+	 return counter++
+	},
+	 console.log("counter value prior to reset: ${counter}");
+	counter = 0;
+	},
+};
+
+export default exampleModule;
+
+import exampleModule from './exampleModule';
+exampleModule.incrementCounter();
+exampleModule.resetCounter();
+
