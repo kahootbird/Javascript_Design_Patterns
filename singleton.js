@@ -1,5 +1,3 @@
-
-
 class Singleton {
   constructor(options = {})
   {
@@ -30,5 +28,4 @@ const SingletonTester = {
   });
 
   // Log the output of pointX just to verify it is correct
-  // Outputs: 5
   console.log(singletonTest.pointX + " " + singletonTest.pointY);
