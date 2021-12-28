@@ -30,3 +30,5 @@ Click.prototype = {
     click.fire('event #1');
     click.unsubscribe(clickHandler);
     click.fire('event #2');
+    click.subscribe(clickHandler);
+    click.fire('event #3');
