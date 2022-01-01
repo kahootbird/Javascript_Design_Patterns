@@ -1,4 +1,3 @@
-
 const myCar = {
 	name: 'Car',
 	drive (){
@@ -7,7 +6,7 @@ const myCar = {
 
 	panic()
 	{
-	
+
 	},
 };
 
